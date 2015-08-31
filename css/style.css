@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+*{
+	font-family: 'Raleway';
+}
+
+.container-fixed{
+	height: 100%;
+}
+
+.container-fixed .row{
+	margin: 5em auto;
+}
+
+.container-fixed .row h2{
+	margin-bottom: 1.2em;
+}
+
+.tratament:hover{
+	background: gray;
+}
+
+#btn-test{
+	margin-top: 20px;
+}
+
+.btn-cuenta{
+	margin: 10px auto;
+}
+
+.info-activity-preview img:hover{
+	-webkit-transform: scale(10px);
+	-moz-transform: scale(10px);
+}
+
+.game-canvas{
+	height: 400px;
+	margin: auto;
+	background: gray;
+}
+
+.modal-content{
+	height: 50em;
+}
+
+@media screen and (max-width: 700px){
+	.info-profile p{
+		text-align: center;
+	}
+
+	.info-activity{
+		text-align: justify;
+	}
+}
