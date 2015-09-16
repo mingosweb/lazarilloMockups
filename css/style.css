@@ -1,15 +1,31 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway);
+/* @import url(https://fonts.googleapis.com/css?family=Raleway); */
 
-*{
-	font-family: 'Raleway';
+
+#menu .container{
+	height: 100%;
+	margin: 0px auto;
+}
+
+#menu > * {
+	margin: 1.2em;
+}
+
+* {
+	/* font-family: 'Raleway'; */
 }
 
 .container-fixed{
+	padding-top: 6em;	
 	height: 100%;
+}
+
+#logo{
+	height: 26em;
 }
 
 .container-fixed .row{
 	margin: 5em auto;
+	text-align: center;
 }
 
 .container-fixed .row h2{
@@ -44,6 +60,12 @@
 }
 
 @media screen and (max-width: 700px){
+
+	.container-fixed{
+		padding-top: 1.4em;	
+		height: 100%;
+	}
+	
 	.info-profile p{
 		text-align: center;
 	}
@@ -51,4 +73,20 @@
 	.info-activity{
 		text-align: justify;
 	}
+
+	#logo{
+		height: 14.5em;
+	}
+
+	.nav-movil{
+		height: 5em;
+		width: 5em;
+		border-radius: 50%;
+		background: rgba(234,123,342,0.4);
+		position: absolute;
+		top: 80%;
+		left: 70%;
+	}
+
+
 }
